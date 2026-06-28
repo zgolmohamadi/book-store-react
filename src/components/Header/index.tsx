@@ -11,7 +11,7 @@ export default function Header() {
     navigate('/login');
   };
   return (
-    <header className='gap-4 flex-wrap px-6 py-5   bg-[#3751ff] text-center text-xl font-bold min-h-18 my-2.5 rounded-xl flex justify-between items-center max-w-375 mx-1 xl:mx-auto'>
+    <header className='gap-4 flex-wrap px-6 py-5 xl:py-2  bg-[#3751ff] text-center text-xl font-bold min-h-18 my-2.5 rounded-xl flex justify-between items-center max-w-375 mx-1 xl:mx-auto'>
       <h1 className='text-amber-50 flex flex-col items-start justify-center -mt-1 relative pl-9'>
         {' '}
         کتاب آنلاین

@@ -7,7 +7,7 @@ export default function MainLayout() {
     <>
       <Header />
 
-      <main className='min-h-screen py-8 overflow-hidden'>
+      <main className='min-h-screen pt-1 pb-5 overflow-hidden'>
         <Outlet />
       </main>
 
