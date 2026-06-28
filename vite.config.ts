@@ -10,5 +10,5 @@ export default defineConfig({
     babel({ presets: [reactCompilerPreset()] }),
     tailwindcss(),
   ],
-  base: 'book-store-react',
+  base: '/book-store-react/',
 });
